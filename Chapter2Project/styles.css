@@ -1,0 +1,34 @@
+/* Jacob Phillips, 9/4/2025 */
+
+html {
+    background-color: #afafaf;
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+p {
+    width: 50%;
+    padding: 2em;
+    background-color: #73ff73;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+#p1 {
+    background-color: #9900ff;
+}
+#p2 {
+    background-color: #001aff;
+}
+#p3 {
+    background-color: #ff2727;
+}
+#p4 {
+    background-color: #ffaef1;
+}
+#p5 {
+    background-color: #73ffb9;
+}
+#p6 {
+    background-color: #73ff73;
+}
