@@ -1,0 +1,27 @@
+/* 
+    Jacob Phillips, 9/27/2025
+    Adapted from https://javascript30.com
+
+    Improvements: Initial files didn't have CSS so I added some
+*/
+
+html {
+    background-color: #c4c700;
+}
+div.info {
+    top: 6em;
+    position: relative;
+    text-align: center;
+    padding: 3em;
+    margin: 1.5em;
+    background-color: #f8ff8f;
+    font-size: 24px;
+    border: 1px solid #8c00ff;
+    border-radius: 1.5em;
+    box-shadow: 3px 1px 1.5px blue;
+}
+div.info p:nth-child(2) {
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px #00ffea;
+}
