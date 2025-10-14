@@ -1,0 +1,57 @@
+/* 
+    Jacob Phillips, 10/13/2025
+    Adapted from: https://javascript30.com
+
+    Improvements:
+    Added a rainbow background animation throughout the entire web page
+    Changed the English color names to hexadecimal values
+*/
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.bod {
+    animation: rainbow 6s infinite;
+}
+@keyframes rainbow {
+    0% {
+        background-color: #ff0000;
+    }
+    14% {
+        background-color: #ffa500;
+    }
+    28% {
+        background-color: #ffff00;
+    }
+    43% {
+        background-color: #008000;
+    }
+    57% {
+        background-color: #0000ff;
+    }
+    72% {
+        background-color: #4b0082;
+    }
+    85% {
+        background-color: #800080;
+    }
+    100% {
+        background-color: #ff0000;
+    }
+}
+div {
+    width: 100%;
+    padding: 100px;
+}
+.one {
+    background: #d8bfd8;
+}
+.two {
+    background: #ffe4e1;
+}
+.three {
+    background: #ff7f50;
+}
